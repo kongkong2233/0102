@@ -12,5 +12,5 @@ public class Checkinput {
 	
 		} while (month < 1 || month > 12);
 	} 
-	System.out.println("올바른 월은 " + month);
+	
 }
