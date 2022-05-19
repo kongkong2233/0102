@@ -6,10 +6,10 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-class MyFrameAction extends JFrame {
+class ActionEventTest extends JFrame {
 	private JButton button;
 	private JLabel label;
-	public MyFrameAction() {
+	public ActionEventTest() {
 		this.setSize(300, 200);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setTitle("이벤트 예제");
@@ -30,10 +30,8 @@ class MyFrameAction extends JFrame {
 			}
 		}
 	}
-}
 
-public class ActionEventTest {
 	public static void main(String[] args) {
-		MyFrameAction t = new MyFrameAction();
+		ActionEventTest t = new ActionEventTest();
 	}
 }
