@@ -4,7 +4,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class MyLab {
+public class exam1 {
     public static void main(String[] args) {
         JFrame f = new JFrame();
         JPanel panel = new JPanel();
@@ -15,7 +15,9 @@ public class MyLab {
         JLabel label3 = new JLabel("연산의 결과");
           
         JTextField field1 = new JTextField(15);
+        field1.getX();
         JTextField field2 = new JTextField(15);
+        field2.getY();
         JTextField field3 = new JTextField(15);
         JButton button = new JButton("연산하기");
         panel.add(label1);
@@ -27,7 +29,7 @@ public class MyLab {
         panel.add(button);
         
         button.addActionListener(e -> {
-			field3.setText("");
+			field3.setText("300");
 		});
         
         f.setSize(300, 200);
